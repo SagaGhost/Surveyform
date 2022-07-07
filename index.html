@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <header>
+    <title>MOO Survey</title>
+    <link rel="stylesheet" href="styles.css">
+  </header>
+  <body>
+    <h1 id='title'>MOO!</h1>
+    <p id='description'>Tell us what you think</p>
+    <form id="survey-form">
+      <fieldset>
+        <label id="name-label" >name: <input type='text' required id='name' placeholder='bob'></label>
+        <label id="email-label">email: <input type='email' required id='email' placeholder='bob@bob.com'></label>
+        <label id="number-label">favorite number: <input type='number' required id='number' placeholder='44' min='0' max='9999'></label>
+      </fieldset>
+      <fieldset>
+        <label>
+          what type of cow are you :
+        <select id='dropdown'>
+          <option value="">(select one)</option>
+          <option value="1">jersy</option>
+          <option value="2">heffer</option>
+          <option value="3">hell bolvine</option>
+          <option value="4">Other</option>
+        </select>
+        </label>
+        <label>male <input type='radio' name='gender' value='0'></label>
+        <label>female <input type='radio' name='gender' value='1'></label>
+        </fieldset>
+        <fieldset>
+        <label>axe? :<input value='1' type='checkbox'></label>
+        <label>sword? :<input value='1' type='checkbox'></label>
+        <label>staby? :<input value='1' type='checkbox'></label>
+      </fieldset>
+      <fieldset><label>additional comments? :</label><textarea></textarea></fieldset>
+      <input type='submit' id='submit'/>
+
+    </form>
+  </body>
+
+</html>

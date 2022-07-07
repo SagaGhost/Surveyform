@@ -1,0 +1,40 @@
+body{
+    text-align:center;
+    background-color: #293939;
+    color: #ddddfd;
+  }
+  
+  label{
+    text-transform: capitalize;
+    font-size: 24px;
+  }
+  
+  input, select{
+    padding:1em;
+    margin:10px;
+    color:white;
+    width:100%;
+    background-color: #190031;
+   height: 10px;
+    font-size: 20px;
+  }
+  
+  input[type='radio'], input[type='submit']{
+    
+    width:unset;
+  }
+  
+  fieldset{
+    border:0
+  }
+  
+  textarea{
+    width:80%;
+    height: 200px;
+    background-color: #190031;
+    color:white;
+  }
+  
+  input[type='checkbox']{
+    width:30px;
+  }
